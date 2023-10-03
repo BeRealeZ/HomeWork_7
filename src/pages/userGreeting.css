@@ -1,0 +1,14 @@
+.user-greeting{
+    text-align: center;
+    margin-top: 150px;    
+}
+
+.user-greeting h2{
+    color: blue;
+    font-size: 60px;
+}
+
+.user-greeting p{
+    font-size: 40px;
+    color: blue;
+}

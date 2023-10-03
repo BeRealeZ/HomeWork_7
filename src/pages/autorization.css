@@ -1,0 +1,61 @@
+
+
+.autorization-form {
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+
+input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: 0;
+}
+
+
+button {
+  background-color: rgb(130, 194, 35);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}
+
+.user-data {
+  margin-top: 20px;
+}
+
+
+.user-data h3 {
+  font-size: 20px;
+}
+
+
+.user-data p {
+  margin: 10px 0;
+}
