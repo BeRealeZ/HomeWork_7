@@ -6,16 +6,17 @@ import Slider from "./pages/slider";
 import Navbar from "./pages/homePage";
 import UserData from "./pages/userGreeting";
 
+
 function App (){
   return (
     <BrowserRouter>
-    <Navbar/>
+      <Navbar />
       <Routes>
-        <Route path="/todoList" element={<Todo/>} />
-        <Route path="/autorization" element={<Autorization/>} />
-        <Route path="/slider" element={<Slider/>} />
+        <Route path="/" element={<UserData/>}/>
+        <Route path="/todoList" element={<Todo />} />
+        <Route path="/autorization" element={<Autorization />} />
+        <Route path="/slider" element={<Slider />} />
       </Routes>
-    <UserData/>
     </BrowserRouter>
   );
 }
